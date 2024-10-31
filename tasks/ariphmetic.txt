@@ -1,0 +1,3 @@
+export ADD="[a [b [f [x ((a f) ((b f) x) )]]]]"
+export MULT="[a [b [f (a (b f))]]]"
+export DEGREE="[a [b [f [x (((b a) f) x)]]]]" // a^b

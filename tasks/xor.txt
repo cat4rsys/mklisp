@@ -1,0 +1,7 @@
+export TRUE="[a [b a]]"
+export FALSE="[a [b b]]"
+export AND="[a [b ((a b) a)]]"
+export OR="[a [b ((a a) b)]]"
+export IF="[p [a [b ((p a) b)]]]"
+export NOT="[a ((($IF a) $FALSE) $TRUE)]"
+export XOR="[a [b (($AND (($OR a) b)) ($NOT (($AND a) b)))]]"
